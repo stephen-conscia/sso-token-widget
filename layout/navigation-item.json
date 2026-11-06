@@ -1,0 +1,21 @@
+{
+  "nav": {
+    "label": "SSO Token Tester",
+    "icon": "stored-info",
+    "iconType": "momentum",
+    "navigateTo": "conscia-sso-token-test",
+    "align": "top"
+  },
+  "page": {
+    "id": "conscia-sso-token-test-page",
+    "useFlexLayout": true,
+    "widgets": {
+      "sso-token-test": {
+        "comp": "sso-token-widget",
+        "script": "https://YOUR-WIDGET-HOST/sso-token-widget.js",
+        "width": 12,
+        "height": 24
+      }
+    }
+  }
+}
